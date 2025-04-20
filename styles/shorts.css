@@ -1,0 +1,82 @@
+.youtube-shorts {
+    height: 30px;
+    width: 100px;
+
+}
+
+.youtubeshort-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.shorts-logo {
+    height: 30px;
+    width: 25px;
+}
+
+.youtube-shorts-message {
+    font-size: 20px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.grid-layout-shorts{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 12px;
+    row-gap: 10px;
+
+}
+.shorts-video {
+    margin-top: 7px;
+    height: 460px;
+    width: 210px;
+}
+
+.shorts {
+    width: 210px;
+    height: 380px;
+}
+
+.shorts-image {
+    height: 380px;
+    width: 210px;
+    transform: border-radius 0.15s;
+}
+.shorts-image:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.shorts-info {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 15px;
+}
+
+.shorts-message {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+@media (max-width:750px){
+    .grid-layout-shorts{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+}
+@media  (min-width:751px) and (max-width:1499px){
+    .grid-layout-shorts{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media only screen and (min-width:1500px){
+    .grid-layout-shorts{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width:500px){
+    .grid-layout-shorts{
+        grid-template-columns: 1fr 1fr;
+    }
+}

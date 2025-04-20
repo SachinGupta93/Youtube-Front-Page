@@ -1,0 +1,48 @@
+.sidebar {
+    background-color: white;
+    width: 90px;
+    position: fixed;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-top: 15px;
+    z-index: 101;
+}
+
+.sidebar-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 60px;
+    margin-left: 1px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.sidebar-icons:hover{
+   background-color: rgb(244, 239, 239);
+}
+.home-icon,
+.originals-icon,
+.library-icon,
+.subscriptions-icon,
+.youtube-music-icon,
+.library-icon {
+    height: 30px;
+    width: 90px;
+    margin: 0px 8px;
+}
+
+.home-message,
+.explore-message,
+.subscriptions-message,
+.originals-message,
+.youtube-music-message,
+.library-message {
+    font-size: 10px;
+    margin-bottom: 18px;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+}
